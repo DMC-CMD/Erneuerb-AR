@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*---------Footer---------*/
+
+.footer {
+  background-color: #353A40;
+  padding: 10px;
+  height: auto;
+  text-align: center;
+  color: #fff;
+}
+
+.contact {
+  padding: 5px;
+}
+
+.mail {
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
