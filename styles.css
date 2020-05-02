@@ -1,0 +1,39 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+/*-----------Content--------*/
+
+.container-fluid {
+  padding: 0;
+}
+
+.main-image {
+  width: 100%;
+  margin: 0;
+}
+
+.middle-left {
+  position: absolute;
+  top: 45%;
+  left: 20%;
+  text-align: left;
+}
+.top-middle {
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  text-align: left;
+  background-color: #fff;
+  border-radius: 5%;
+}
+
+.unterschriften-dl {
+  text-decoration: none;
+  color: white;
+}
+.download-icon {
+  border-radius: 100%;
+  width: 45%;
+}
