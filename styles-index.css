@@ -4,21 +4,28 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-/*-----------Content--------*/
-.top-container {
-  position: relative;
-  text-align: left;
-  color: black;
+/*-----------Navigation-Bar--------*/
+.navbar {
+  z-index: +1;
 }
 
-h3 {
-  opacity: 1;
-  font-size: 3vw;
-  font-weight: bold;
+/*-----------Content--------*/
+.main-image {
+  width: 100%;
+  margin: 0;
 }
+
+
+
+
+/*big-screen*/
 @media screen and (min-width: 601px) {
-    h1 {
+    .title {
       font-size: 10vw;
+      font-weight: bold;
+    }
+    .title2 {
+      font-size: 3vw;
       font-weight: bold;
     }
     .top-middle-1 {
@@ -45,21 +52,34 @@ h3 {
       left: 37.5%;
       text-align: left;
     }
-
-  }
+}
+/*small-screen*/
 @media screen and (max-width: 600px) {
-    h1 {
+    .title {
       font-size: 12vw;
       font-weight: bold;
     }
-    .top-middle {
+    .title2 {
+      font-size: 5vw;
+      font-weight: bold;
+    }
+    .top-middle-1 {
       position: absolute;
       top: 20%;
       left: 15%;
       text-align: center;
       padding: 1%;
       color: white;
-      background-color: #353A40;
+      text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+    }
+    .top-middle-2 {
+      position: absolute;
+      top: 40%;
+      left: 23.3%;
+      text-align: center;
+      padding: 1%;
+      color: white;
+      text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
     }
     .top-left {
       position: absolute;
@@ -71,7 +91,6 @@ h3 {
 
 .unterschriften-dl {
   text-decoration: none;
-  color: white;
 }
 .download-icon {
   border-radius: 100%;
@@ -80,10 +99,7 @@ h3 {
   left: 8%;
 }
 
-.main-image {
-  width: 100%;
-  margin: 0;
-}
+
 
 /*----------middle-container-----*/
 .middle-container {
