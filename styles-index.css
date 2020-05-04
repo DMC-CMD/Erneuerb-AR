@@ -19,7 +19,7 @@ body {
 
 
 /*big-screen*/
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 1001px) {
     .title {
       font-size: 10vw;
       font-weight: bold;
@@ -54,7 +54,7 @@ body {
     }
 }
 /*small-screen*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
     .title {
       font-size: 12vw;
       font-weight: bold;
